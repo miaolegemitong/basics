@@ -10,19 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>deep-into-jvm</module>
+        <module>design-pattern</module>
     </modules>
-
-    <properties>
-        <cglib.version>3.2.4</cglib.version>
-    </properties>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>cglib</groupId>
-                <artifactId>cglib</artifactId>
-                <version>${cglib.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 </project>
