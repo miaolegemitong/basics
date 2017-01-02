@@ -11,5 +11,27 @@
     <modules>
         <module>deep-into-jvm</module>
         <module>design-pattern</module>
+        <module>scala-for-the-impatient</module>
     </modules>
+
+    <properties>
+        <scala.version>2.11.8</scala.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-library</artifactId>
+                <version>${scala.version}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-compiler</artifactId>
+                <version>${scala.version}</version>
+                <scope>compile</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
