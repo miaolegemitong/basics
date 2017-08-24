@@ -1,8 +1,8 @@
 package com.miaolegemitong.basics.algorithms.sort;
 
 /**
- * @author mitong
- * @email mitong@staff.sina.com.cn
+ * @author miaolegemitong
+ * @email mitong@miaolegemitong.com
  * @date 2017/1/18
  * @description
  */

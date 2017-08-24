@@ -3,7 +3,7 @@ package com.miaolegemitong.basics.algorithms.backfit;
 import java.util.Arrays;
 
 /**
- * Created by mitong on 2017/3/30.
+ * Created by miaolegemitong on 2017/3/30.
  * 从1-9这9个数字  挑出9个数字来填 下图的9个格   ，使得3边之和 都相等，找出所有的结果。
  *                口
  *              /    \

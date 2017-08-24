@@ -3,7 +3,7 @@ package com.miaolegemitong.basics.algorithms.backfit;
 import java.util.Arrays;
 
 /**
- * Created by mitong on 2017/3/30.
+ * Created by miaolegemitong on 2017/3/30.
  * 八皇后问题
  */
 public class EightQueens {
