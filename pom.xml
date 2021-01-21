@@ -15,7 +15,7 @@
     </modules>
 
     <properties>
-        <scala.version>2.11.8</scala.version>
+        <scala.version>2.13.4</scala.version>
         <junit.version>4.12</junit.version>
         <java.version>1.8</java.version>
     </properties>
