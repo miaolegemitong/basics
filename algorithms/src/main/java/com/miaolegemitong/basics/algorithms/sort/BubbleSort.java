@@ -66,4 +66,26 @@ public class BubbleSort {
             }
         }
     }
+
+    //递归版本
+    public static void recursiveBubbleSort(int[] data, int len) {
+        if (len == 1) {
+            return;
+        }
+
+        // One pass of bubble sort. After
+        // this pass, the largest element
+        // is moved (or bubbled) to end.
+        for (int i = 0; i < len - 1; i++) {
+            if (data[i] > data[i + 1]) {
+                // swap arr[i], arr[i+1]
+                int temp = data[i];
+                data[i] = data[i + 1];
+                data[i + 1] = temp;
+            }
+        }
+        // Largest element is fixed,
+        // recur for remaining array
+        recursiveBubbleSort(data, len - 1);
+    }
 }
